@@ -80,10 +80,10 @@
         num_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                                         &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kt NUMBER_7  &kt NUMBER_8  &kt NUMBER_9  &kt NUMBER_0                            &mmv MOVE_UP                     &none  &none            &none              &none          &none          &none
+&none             &kp SEMICOLON      &kt NUMBER_4  &kt NUMBER_5  &kt NUMBER_6  &kp EQUAL               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
+&none             &kp GRAVE          &kt NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH  &none                    &mmv MOVE_DOWN                   &none  &none            &none              &none          &none          &none
+                                                   &kp PERIOD    &kp NUMBER_0  &kp MINUS                                                                &none  &none            &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
