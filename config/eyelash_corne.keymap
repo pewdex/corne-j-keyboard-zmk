@@ -80,10 +80,10 @@
         num_layer {
             display-name = "NUMBER";
             bindings = <
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kt NUMBER_7  &kt NUMBER_8  &kt NUMBER_9  &kt NUMBER_0                            &mmv MOVE_UP                     &none  &none            &none              &none          &none          &none
-&none             &kp SEMICOLON      &kt NUMBER_4  &kt NUMBER_5  &kt NUMBER_6  &kp EQUAL               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
-&none             &kp GRAVE          &kt NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH  &none                    &mmv MOVE_DOWN                   &none  &none            &none              &none          &none          &none
-                                                   &kp PERIOD    &kp NUMBER_0  &kp MINUS                                                                &none  &none            &none
+&none  &kp LEFT_BRACKET  &kt NUMBER_7  &kt NUMBER_8  &kt NUMBER_9  &kt RIGHT_BRACKET                           &mmv MOVE_UP                     &none  &none            &none              &none          &none          &none
+&none  &kp SEMICOLON     &kt NUMBER_4  &kt NUMBER_5  &kt NUMBER_6  &kp EQUAL                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
+&none  &kp GRAVE         &kt NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH      &none                    &mmv MOVE_DOWN                   &none  &none            &none              &none          &none          &none
+                                       &kp PERIOD    &kp NUMBER_0  &kp MINUS                                                                    &none  &none            &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -92,10 +92,10 @@
         sym_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                    &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
+&trans  &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE                            &mmv MOVE_UP                     &none    &none            &none              &none          &none          &none
+&trans  &kp COLON       &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none    &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
+&trans  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE         &trans                    &mmv MOVE_DOWN                   &none    &none            &none              &none          &none          &none
+                                         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SPACE                                                                   &kp RET  &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
