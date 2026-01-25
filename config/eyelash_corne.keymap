@@ -115,10 +115,10 @@
 
         nav_layer {
             bindings = <
-&none  &none  &none     &none      &none      &none                  &none         &kp K_REDO  &kp K_PASTE    &kp K_COPY     &kp K_CUT     &kp K_UNDO  &none
-&none  &none  &kp LALT  &kp LCTRL  &kp LSHFT  &none           &none  &none  &none  &kp CAPS    &kp LEFT       &kp DOWN       &kp UP_ARROW  &kp RIGHT   &none
-&none  &none  &none     &none      &none      &none  &none           &none         &kp INS     &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP   &kp END     &none
-                        &none      &none      &none                                &kp ENTER   &kp BACKSPACE  &kp DEL
+&none  &none         &none     &none      &none      &none                  &none         &kp K_REDO  &kp K_PASTE    &kp K_COPY     &kp K_CUT     &kp K_UNDO  &none
+&none  &kp LEFT_GUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none           &none  &none  &none  &kp CAPS    &kp LEFT       &kp DOWN       &kp UP_ARROW  &kp RIGHT   &none
+&none  &none         &none     &none      &none      &none  &none           &none         &kp INS     &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP   &kp END     &none
+                               &none      &none      &none                                &kp ENTER   &kp BACKSPACE  &kp DEL
             >;
 
             label = "NAV";
