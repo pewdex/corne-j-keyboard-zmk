@@ -128,9 +128,9 @@
         num_layer {
             display-name = "NUMBER";
             bindings = <
-&none  &kp LEFT_BRACKET  &kt NUMBER_7  &kt NUMBER_8  &kt NUMBER_9  &kt RIGHT_BRACKET                           &mmv MOVE_UP                     &none  &none            &none              &none          &none          &none
-&none  &kp SEMICOLON     &kt NUMBER_4  &kt NUMBER_5  &kt NUMBER_6  &kp EQUAL                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
-&none  &kp GRAVE         &kt NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH      &none                    &mmv MOVE_DOWN                   &none  &none            &none              &none          &none          &none
+&none  &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET                           &mmv MOVE_UP                     &none  &none            &none              &none          &none          &none
+&none  &kp SEMICOLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
+&none  &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH      &none                    &mmv MOVE_DOWN                   &none  &none            &none              &none          &none          &none
                                        &kp PERIOD    &kp NUMBER_0  &kp MINUS                                                                    &none  &none            &none
             >;
 
@@ -175,7 +175,7 @@
         media_layer {
             bindings = <
 &none  &none         &none         &none             &none           &none                   &trans          &rgb_ug RGB_TOG    &rgb_ug RGB_EFF   &caps_word    &none         &none         &none
-&none  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none           &trans  &trans  &trans  &ext_power EP_TOG  &kt C_PREVIOUS    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT    &none
+&none  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none           &trans  &trans  &trans  &ext_power EP_TOG  &kp C_PREVIOUS    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT    &none
 &none  &none         &none         &none             &none           &none  &none            &trans          &out OUT_TOG       &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
                                    &none             &none           &none                                   &kp C_STOP         &kp C_PLAY_PAUSE  &kp C_MUTE
             >;
