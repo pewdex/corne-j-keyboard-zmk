@@ -105,9 +105,9 @@
             display-name = "FN";
             bindings = <
 &studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans     &trans                                                                   &trans       &trans     &trans
+&none           &none       &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
+&none           &sys_reset  &none      &bootloader  &none      &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &none        &none      &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
+                                       &none        &none      &none                                                                    &none        &none      &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -115,10 +115,10 @@
 
         nav_layer {
             bindings = <
-&none  &none         &none     &none      &none      &none                  &none         &kp K_REDO  &kp K_PASTE    &kp K_COPY     &kp K_CUT     &kp K_UNDO  &none
-&none  &kp LEFT_GUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none           &none  &none  &none  &kp CAPS    &kp LEFT       &kp DOWN       &kp UP_ARROW  &kp RIGHT   &none
-&none  &none         &none     &none      &none      &none  &none           &none         &kp INS     &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP   &kp END     &none
-                               &none      &none      &none                                &kp ENTER   &kp BACKSPACE  &kp DEL
+&none  &none         &none     &none      &none      &none                   &trans          &kp K_REDO  &kp K_PASTE    &kp K_COPY     &kp K_CUT     &kp K_UNDO  &none
+&none  &kp LEFT_GUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none           &trans  &trans  &trans  &kp CAPS    &kp LEFT       &kp DOWN       &kp UP_ARROW  &kp RIGHT   &none
+&none  &none         &none     &none      &none      &none  &none            &trans          &kp INS     &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP   &kp END     &none
+                               &none      &none      &none                                   &kp ENTER   &kp BACKSPACE  &kp DEL
             >;
 
             label = "NAV";
@@ -126,10 +126,10 @@
 
         media_layer {
             bindings = <
-&none  &none         &none         &none             &none           &none                  &none         &rgb_ug RGB_TOG    &rgb_ug RGB_EFF   &caps_word    &none         &none         &none
-&none  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none           &none  &none  &none  &ext_power EP_TOG  &kt C_PREVIOUS    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT    &none
-&none  &none         &none         &none             &none           &none  &none           &none         &out OUT_TOG       &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-                                   &none             &none           &none                                &kp C_STOP         &kp C_PLAY_PAUSE  &kp C_MUTE
+&none  &none         &none         &none             &none           &none                   &trans          &rgb_ug RGB_TOG    &rgb_ug RGB_EFF   &caps_word    &none         &none         &none
+&none  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none           &trans  &trans  &trans  &ext_power EP_TOG  &kt C_PREVIOUS    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT    &none
+&none  &none         &none         &none             &none           &none  &none            &trans          &out OUT_TOG       &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+                                   &none             &none           &none                                   &kp C_STOP         &kp C_PLAY_PAUSE  &kp C_MUTE
             >;
 
             label = "MEDIA";
