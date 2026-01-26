@@ -52,10 +52,10 @@ layers:
   NUMBER:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '[', s: '{'}
-  - {t: '7', h: toggle}
-  - {t: '8', h: toggle}
-  - {t: '9', h: toggle}
-  - {t: ']', h: toggle, s: '}'}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ']', s: '}'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -65,9 +65,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: ;, s: ':'}
-  - {t: '4', h: toggle}
-  - {t: '5', h: toggle}
-  - {t: '6', h: toggle}
+  - '4'
+  - '5'
+  - '6'
   - {t: '=', s: +}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
@@ -80,7 +80,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '`', s: '~'}
-  - {t: '1', h: toggle}
+  - '1'
   - '2'
   - '3'
   - {t: \, s: '|'}
@@ -269,7 +269,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - EP TOG
-  - {t: PREVIOUS, h: toggle}
+  - PREVIOUS
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:skip-next$$
