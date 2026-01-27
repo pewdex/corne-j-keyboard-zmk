@@ -294,6 +294,3 @@ layers:
   - STOP
   - PLAY PAUSE
   - $$mdi:volume-off$$
-combos:
-- p: [1, 15, 29]
-  k: '&soft_off'
