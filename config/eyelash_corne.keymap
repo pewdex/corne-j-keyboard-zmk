@@ -152,10 +152,10 @@
         fn_layer {
             display-name = "FN";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&none           &none       &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&none           &sys_reset  &none      &bootloader  &none      &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &none        &none      &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &none        &none      &none                                                                    &none        &none      &none
+&none  &kp F12  &kp F7  &kp F8             &kp F9     &kp PRINTSCREEN                                &mmv MOVE_UP                     &none        &none      &none        &none       &none     &none
+&none  &kp F11  &kp F4  &kp F5             &kp F6     &kp SCROLLLOCK                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp RSHFT  &kp RCTRL    &kp RALT    &kp RGUI  &none
+&none  &kp F10  &kp F1  &kp F2             &kp F3     &kp PAUSE_BREAK  &kp C_MUTE                    &mmv MOVE_DOWN                   &none        &none      &bootloader  &sys_reset  &none     &none
+                        &kp K_APPLICATION  &kp SPACE  &kp TAB                                                                         &none        &none      &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
