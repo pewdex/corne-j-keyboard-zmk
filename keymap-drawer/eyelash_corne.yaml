@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - '&td0'
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: '$$mdi:keyboard-tab$$', h: MEDIA}
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
