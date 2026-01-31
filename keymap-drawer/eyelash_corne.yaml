@@ -266,7 +266,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:skip-previous$$
-  - MUTE
+  - PLAY PAUSE
   - $$mdi:skip-next$$
   - EP TOG
   - PREVIOUS
