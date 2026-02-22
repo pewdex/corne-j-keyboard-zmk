@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - POWER
-  - {t: '`', s: '~'}
+  - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
@@ -29,7 +29,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - LGUI
   - Z
   - X
   - C
