@@ -268,7 +268,7 @@ layers:
   - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - $$mdi:bluetooth-off$$
   - PREVIOUS
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
