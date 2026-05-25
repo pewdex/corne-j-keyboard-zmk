@@ -258,7 +258,7 @@ layers:
   - RGB EFF
   - RGB HUD
   - RGB HUI
-  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
