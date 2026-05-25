@@ -119,6 +119,8 @@
 &kp LGUI    &kp Z  &kp X  &kp C       &kp V        &kp B      &kp SPACE              &kp DOWN              &kp N        &kp M            &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                           &kp ESCAPE  &lt 4 SPACE  &lt 5 TAB                                               &lt 2 ENTER  &lt 1 BACKSPACE  &lt 3 DEL
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         num_layer {
